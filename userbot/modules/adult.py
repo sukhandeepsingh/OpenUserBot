@@ -234,59 +234,59 @@ async def insult(e):
 @register(outgoing=True, pattern="^.rape$")
 async def raping (raped):
     """ Dont Rape Too much -_-"""
-    await e.edit(choice(RAPE_STRINGS))
+    await raped.edit(choice(RAPE_STRINGS))
 
 @register(outgoing=True, pattern="^.prox$")
 async def proo (pros):
     """ String for Pros only -_-"""
-    await e.edit(choice(PROX_STRINGS))
+    await pros.edit(choice(PROX_STRINGS))
 
 @register(outgoing=True, pattern="^.fuk$")
 async def chutiya (fuks):
     """ String for fhu only -_-"""
-    await e.edit(choice(FUK_STRINGS))
+    await fuks.edit(choice(FUK_STRINGS))
 
 @register(outgoing=True, pattern="^.chu$")
 async def chutiya (chus):
     """ String for Chu only -_-"""
-    await e.edit(choice(CHU_STRINGS))
+    await chus.edit(choice(CHU_STRINGS))
 			  			  
 @register(outgoing=True, pattern="^.thanos$")
 async def thanos (thanos):
     """ String for thanos only -_-"""
-    await e.edit(choice(THANOS_STRINGS))	
+    await thanos.edit(choice(THANOS_STRINGS))	
 			  
 @register(outgoing=True, pattern="^.abusehard$")
 async def fuckedd (abusehard):
     """ Dont Use this Too much bsdk -_-"""
-    await e.edit(choice(ABUSEHARD_STRING))
+    await abusehard.edit(choice(ABUSEHARD_STRING))
 			  
 			  
 @register(outgoing=True, pattern="^.geyx$")
 async def geys (geyed):
     """ Use only for gey ppl -_-"""
-    await e.edit(choice(GEY_STRINGS))
+    await geyed.edit(choice(GEY_STRINGS))
 			  
 			  
 @register(outgoing=True, pattern="^.abuse$")
 async def abusing (abused):
     """ Dont Abuse Too much bsdk -_-"""
-    await e.edit(choice(ABUSE_STRINGS))
+    await abused.edit(choice(ABUSE_STRINGS))
 
 @register(outgoing=True, pattern="^.runsx$")
 async def runner_lol(run):
     """ Run, run, RUNNN! """
-    await e.edit(choice(RUNSXREACTS))
+    await run.edit(choice(RUNSXREACTS))
 
 @register(outgoing=True, pattern="^.noobx$")
 async def metoo(hahayes):
     """ Haha yes """
-    await e.edit(choice(NOOBXSTR))
+    await hahayes.edit(choice(NOOBXSTR))
 			  
 @register(outgoing=True, pattern="^.rendi$")
 async def metoo(hahayes):
     """ Haha yes """
-    await e.edit(choice(RENDISTR))
+    await hahayes.edit(choice(RENDISTR))
 
 
 CMD_HELP.update({
