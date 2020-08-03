@@ -262,7 +262,7 @@ async def fuckedd (abusehard):
     await e.edit(choice(ABUSEHARD_STRING))
 			  
 			  
-@register(outgoing=True, pattern="^.gey$")
+@register(outgoing=True, pattern="^.geyx$")
 async def geys (geyed):
     """ Use only for gey ppl -_-"""
     await e.edit(choice(GEY_STRINGS))
@@ -311,7 +311,7 @@ CMD_HELP.update({
 \nUsage: Protects you from unwanted peeps.\
 \n\n.rendi\
 \nUsage: xxxxxx\
-\n\n.gey\
+\n\n.geyx\
 \nUsage: xxxxxx\
 \n\n.insultx\
 \nUsage: xxxxxx\
