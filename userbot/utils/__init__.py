@@ -13,3 +13,6 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with TG-UserBot.  If not, see <https://www.gnu.org/licenses/>.
+
+
+from .progress import progress
